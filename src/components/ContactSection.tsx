@@ -34,7 +34,7 @@ const contactCards = [
   {
     icon: MapPin,
     title: "Endereço",
-    info: "Rua das Flores, 123 - Centro, São Paulo",
+    info: "Av. Paulista, 807 - Sé, São Paulo - SP, 01311-100",
     action: { label: "Ver no Google Maps", href: "https://maps.google.com", external: true },
   },
   {
