@@ -37,7 +37,7 @@ export default function InsuranceSection() {
                 <img
                   src={p.logo}
                   alt={p.name}
-                  className="w-40 h-40 object-contain"
+                  className="w-48 h-32 object-contain"
                   loading="lazy"
                 />
               </div>

@@ -13,15 +13,18 @@ export default function ReviewsSection() {
   return (
     <section className="py-24 px-6 md:px-12 lg:px-24 bg-muted">
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center gap-4 mb-12">
-          <div className="text-5xl font-bold">4.8</div>
-          <div>
-            <div className="flex text-yellow-400">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={16} fill="currentColor" />
-              ))}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-6">Avaliações dos Nossos Pacientes</h2>
+          <div className="flex items-center justify-center gap-4">
+            <div className="text-5xl font-bold">4.8</div>
+            <div>
+              <div className="flex text-yellow-400">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={16} fill="currentColor" />
+                ))}
+              </div>
+              <div className="text-sm text-muted-foreground">{reviews.length} avaliações</div>
             </div>
-            <div className="text-sm text-muted-foreground">{reviews.length} avaliações</div>
           </div>
         </div>
 
