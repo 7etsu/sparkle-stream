@@ -9,7 +9,7 @@ const fadeIn = {
 };
 
 const infoCards = [
-  { icon: MapPin, title: "Endereço", lines: ["Rua das Flores, 123", "Centro, São Paulo"] },
+  { icon: MapPin, title: "Endereço", lines: ["Av. Paulista, 807 - Sé", "São Paulo - SP, 01311-100"] },
   { icon: Car, title: "Estacionamento", lines: ["Disponível", "Gratuito para pacientes"] },
   { icon: Calendar, title: "Agendamento", lines: ["Online ou por telefone", "(11) 92059-2042"] },
 ];
